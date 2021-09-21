@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 section {
@@ -10,29 +16,45 @@ section {
     position: relative;
 }
 
-#shoe1 {
-    background-color: red;
-}
+/* centratura immagine e titolo  */
 
 .container {
     text-align: center;
-}
-
-.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     display: block;
-}
-
-.container img {
     transform: translate(-50%, -50%);
 }
 
 .container h2 {
-    transform: translate(-50%, 900%);
+    font-size: 40px;
 }
 
+/* sfondi sezioni */
+
+#shoe1 {
+    background-color: #ff0000;
+}
+
+#shoe2 {
+    background-color: #008000;
+}
+
+#shoe3 {
+    background-color: #ffff00;
+}
+
+/* colore titoli */
+
 #title1 {
-    color: yellow;
+    color: #ffff00;
+}
+
+#title2 {
+    color: #ffff00;
+}
+
+#title3 {
+    color: #008000;
 }
